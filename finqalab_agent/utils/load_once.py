@@ -1,6 +1,8 @@
 import os
 import nltk
 import json
+import requests
+from getpass import getpass
 from typing import List
 from dotenv import load_dotenv
 from functools import lru_cache
@@ -73,22 +75,27 @@ def _load_nltk_tokenizer(tok_name: str):
 @lru_cache(maxsize = 1)
 def _get_mqr(llm: str, k_bm25: int):
 
-    all_documents = []
-    files_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "finqalab_data")
+    files = [f'Parsed_Data_FAQs_{i}.json' for i in range(1,16)]
 
-    for file in os.listdir(files_path):
-        if not file.endswith('.json'):
-            continue
-        file_path = os.path.join(files_path, file)
+    for file_name in files:
+        url = f"https://raw.githubusercontent.com/Cheeetah97/MukalmaApp/refs/heads/main/finqalab_data/{file_name}"
+        headers = {"Authorization": f"token {os.getenv("GITHUB_TOKEN")}"}
+        data = requests.get(url, headers=headers).json()
+        with open(file_name, 'w') as f:
+            json.dump(data, f, indent=4) 
+
+    all_documents = []
+
+    for file_name in files:
         loader = JSONLoader(
-            file_path = file_path,
+            file_path = file_name,
             jq_schema = '.[] | {text}',
             content_key='text',
             text_content = False
         )
         documents = loader.load()
 
-        with open(file_path, 'r') as f:
+        with open(file_name, 'r') as f:
             data = json.load(f)
             data_source = data[0]['FAQ_Category']
             for doc in documents:
