@@ -9,7 +9,6 @@ from langchain_qdrant import QdrantVectorStore
 from langchain.retrievers import EnsembleRetriever
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import BaseOutputParser
-from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.retrievers import BM25Retriever
 from langchain_community.document_loaders import JSONLoader
 from langchain.retrievers.multi_query import MultiQueryRetriever
@@ -36,17 +35,17 @@ def _get_model(name: str, temp: str):
 def _get_vector_store(embed_type: str):
 
     if embed_type == 'hf':
+        pass
+        # embed_model = HuggingFaceEmbeddings(model_name = "Ch333tah/modernbert-finqalab-embeddings",
+        #                                     model_kwargs = {'device': 'cpu'},
+        #                                     cache_folder = './hf_cache'
+        # )
 
-        embed_model = HuggingFaceEmbeddings(model_name = "Ch333tah/modernbert-finqalab-embeddings",
-                                            model_kwargs = {'device': 'cpu'},
-                                            cache_folder = './hf_cache'
-        )
-
-        vector_store = QdrantVectorStore.from_existing_collection(collection_name = "qa_collection",
-                                                                  embedding = embed_model,
-                                                                  url = os.getenv("QDRANT"), 
-                                                                  api_key = os.getenv("QDRANT_API_KEY")
-        )
+        # vector_store = QdrantVectorStore.from_existing_collection(collection_name = "qa_collection",
+        #                                                           embedding = embed_model,
+        #                                                           url = os.getenv("QDRANT"), 
+        #                                                           api_key = os.getenv("QDRANT_API_KEY")
+        # )
     
     elif embed_type == 'google':
 
