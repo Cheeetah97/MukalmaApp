@@ -142,7 +142,6 @@ torch==2.5.1
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
-transformers==4.48.1
 typer==0.9.4
 typing-inspect==0.9.0
 typing_extensions==4.12.2
