@@ -73,8 +73,6 @@ def _load_nltk_tokenizer(tok_name: str):
 
 @lru_cache(maxsize = 1)
 def _get_mqr(llm: str, k_bm25: int):
-  
-    # _load_nltk_tokenizer("punkt_tab")
 
     all_documents = []
     files_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "finqalab_data")
