@@ -1,0 +1,79 @@
+[
+    {
+        "text": "Question: What is Finqalab?  Answer: Finqalab is Pakistans first multi-asset investment platform, where you can invest in stocks, ETFS, and government securities, including T-Bills, in the Pakistan Stock Exchange. Finqalabs intuitive interface and advanced features enable investors to make informed decisions and confidently navigate the financial markets.",
+        "image_path": null,
+        "id": "8aeaf04ee959345df04daee40cbb64a2",
+        "page_number": 1,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: How can I download and install Finqalab?  Answer: For Android: Go to the Google Play Store, search Finqalab, and tap Download to install. For iOS: Visit the Apple App Store, search Finqalab, and tap Download to install.",
+        "image_path": null,
+        "id": "023efcfde50e6a98500c4120baa7e657",
+        "page_number": 1,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: What kind of alerts can I set up on the Finqalab app?  Answer: Customer alerts can be set for Price, Volume, and PSX notifications.",
+        "image_path": null,
+        "id": "f53510688ce3bdf614aa628f92cffc49",
+        "page_number": 1,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: Is my personal information secure with Finqalab?  Answer: Yes. At Finqalab, user security is our top priority, and we take careful measures to ensure data security and protection.",
+        "image_path": null,
+        "id": "9b8ddab31ff9405c768b8072a0283f9c",
+        "page_number": 1,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: Can I use Finqalab on multiple devices simultaneously?  Answer: No, you can only use the Finqalab app on one device at a time.",
+        "image_path": null,
+        "id": "5d8f47c4dc94359326fb320c6393f383",
+        "page_number": 1,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: How can I delete my Finqalab account?  Answer: To delete your Finqalab account, go to the 'Account' or 'Settings' section within the Finqalab app and select Deactivate Account. In case you face any difficulty deleting your account, please contact our customer support at support@finqalab.com. They will assist you in the process.",
+        "image_path": null,
+        "id": "a2ced9351e71e22453a1d08b0ce1cbd1",
+        "page_number": 2,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: I have some suggestions for improving Finqalab, how can I share them?  Answer: Suggestions can be shared through email at support@finqalab.com..",
+        "image_path": null,
+        "id": "0d2cdf67bd2c648d6297f807e2282c20",
+        "page_number": 2,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: How is this different from dealing with a broker?  Answer: Finqalab digitizes the stock trading process by allowing customers to trade directly from their smartphones. Investors can buy and sell stocks with just a few taps, eliminating the need for a traditional broker. This digital approach streamlines the entire process by removing paperwork, phone calls, and delays. Users can also access their accounts at any time and from any location, which provides ease and flexibility.",
+        "image_path": null,
+        "id": "436ef8167ce9c471bd9ba1047feacf8b",
+        "page_number": 2,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: How to register on CDC Access app/portal?  Answer: Download the CDC Access app from the Google Play Store or App Store. Open the App or visit the portal and click Sign Up. Enter your CNIC/NICOP, email, and mobile number. Then set a password. Verify your account using the OTP sent to your email and mobile. Submit to complete registration. Watch the video tutorial (https://youtu.be/qq3sPohwVeU? si=ViGBv2QlhUcIZVHU) for a quick guide!",
+        "image_path": null,
+        "id": "d9d849b4f74ed7fa8d5e7ec86212d472",
+        "page_number": 2,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: How to convert a Sahulat account to a Normal Account?  Answer: To convert a Sahulat account to a Normal Account. Kindly email with the request at CS@nextcapital.com.pk and attach the following documents: Relevant proof of income along with 3 to 6 months bank statements reflecting that income. Also keep in mind that once the request is received it takes 5 to 7 working day for the account to be converted.",
+        "image_path": null,
+        "id": "de4fefd19b8a55871072a6c8b75c6a62",
+        "page_number": 3,
+        "FAQ_Category": "General"
+    },
+    {
+        "text": "Question: Does Finqalab have a web portal?  Answer: Finqalab is mobile-only. However, you can use Next Capitals desktop application with the same credentials as Finqalab. You can log in from the same credentials as Finqalab. Second Level passwords can be generated in real-time. Please make sure to use your client code to log in and not the username.",
+        "image_path": null,
+        "id": "24fb5eef5d8eeec7ad6890ad2bc2d1a5",
+        "page_number": 3,
+        "FAQ_Category": "General"
+    }
+]

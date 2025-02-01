@@ -1,0 +1,65 @@
+[
+    {
+        "text": "Question: What are the system requirements for running the app?  Answer: The system requirements for running the app are as follows: Operating System: The operating system on your smartphone should be compatible. For Android, the version should be at least 6 or above. For iOS users, the version should be at least 13 or above. Device Compatibility: Confirm that the brokerage investment app is compatible with your smartphone model. Some apps may have specified screen size or resolution requirements. RAM: The amount of RAM available on your device can affect the app's performance. A smartphone with at least 2 GB of RAM is recommended, while more is ideal for easier multitasking. Internet Access: A robust and dependable internet connection is required.",
+        "image_path": null,
+        "id": "c556b5fd0bd5c4bead4bf5523cfb4c13",
+        "page_number": 1,
+        "FAQ_Category": "Technical Issues with App"
+    },
+    {
+        "text": "Question: I'm experiencing issues with logging in to the app. What should I do?  Answer: In case you are facing any issues, Try closing the app and opening it again. Try clearing the cache or updating to the latest version. If the issue still persists, contact our customer support through Whatsapp (+923003672522). Email your query at support@finqalab.com.pk",
+        "image_path": null,
+        "id": "5867e237225cc431eaa5100dc8b3913c",
+        "page_number": 1,
+        "FAQ_Category": "Technical Issues with App"
+    },
+    {
+        "text": "Question: How do I recover or reset my password for the app?  Answer: In case you forget your password, you can select the Forgot My Password option on the login page. This would direct you to the reset password page. Enter your registered email and we will send you instructions to reset your password.",
+        "image_path": null,
+        "id": "a24125a2d046b2dd64d6108bee8d8315",
+        "page_number": 2,
+        "FAQ_Category": "Technical Issues with App"
+    },
+    {
+        "text": "Question: I'm encountering a technical error or bug in the app. How can I report it?  Answer: In case you are facing a technical issue, contact our customer support through WhatsApp (+923003672522) or email your query at support@finqalab.com.",
+        "image_path": null,
+        "id": "a96b4214e408c481f7920302d8d576d7",
+        "page_number": 2,
+        "FAQ_Category": "Technical Issues with App"
+    },
+    {
+        "text": "Question: The app is not loading properly on my device. What could be the problem?  Answer: If the app isn't loading properly: Please check if you have a stable internet connection. Try refreshing the screen 2-3 times. Close the app and open it again. Try clearing the cache, check for app updates or reinstall the app. If the issue still persists, contact our customer support through Whatsapp (+923003672522) or email your query at support@finqalab.com",
+        "image_path": null,
+        "id": "b0860ab38d1c42434f292a56862b00b0",
+        "page_number": 2,
+        "FAQ_Category": "Technical Issues with App"
+    },
+    {
+        "text": "Question: How do I update the app to the latest version?  Answer: Updates are easily available on both App Store and Play Store. If an update is available, the app store would notify you to update to the latest version. To update the app, open your app store, search for Finqalab, and update to the latest version.",
+        "image_path": null,
+        "id": "0c343e099c146b79319d3c24c1602e4e",
+        "page_number": 2,
+        "FAQ_Category": "Technical Issues with App"
+    },
+    {
+        "text": "Question: How do I log out or sign out of the app?  Answer: To logout of the app, go to the Account page and select the logout option.",
+        "image_path": null,
+        "id": "f10babf19aa7ef28b800ff2b9ca51210",
+        "page_number": 3,
+        "FAQ_Category": "Technical Issues with App"
+    },
+    {
+        "text": "Question: Where can I find additional technical support or assistance for the app?  Answer: For issues related to technical support, contact our customer support through Whatsapp (+923003672522) or email your query at support@finqalab.com.",
+        "image_path": null,
+        "id": "8cc9b9e30e8fc140f10a2eab5ff7a019",
+        "page_number": 3,
+        "FAQ_Category": "Technical Issues with App"
+    },
+    {
+        "text": "Question: Why did the app automatically log me out?  Answer: The app logs you out automatically every 30 days, or when you login in another device.",
+        "image_path": null,
+        "id": "9eb70b571915e3c0a20b414f06e9b186",
+        "page_number": 3,
+        "FAQ_Category": "Technical Issues with App"
+    }
+]

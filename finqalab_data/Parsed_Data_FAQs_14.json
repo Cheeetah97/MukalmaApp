@@ -1,0 +1,72 @@
+[
+    {
+        "text": "Question: What happens if I am blocked by the NCC BioVerify App due to bad attempts?  Answer: If your account is blocked due to unsuccessful biometric attempts, we can request NCCPL to unblock it. Please share your name and a screenshot of the blocked account with us.",
+        "image_path": null,
+        "id": "3c1d9ec6ae4189fae0a642738f3c17be",
+        "page_number": 1,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: I entered my CNIC in the Bioverify app and got CNIC not eligible for this service message. What does this mean?  Answer: This means that the Biometric verification is not required.",
+        "image_path": null,
+        "id": "7255108b0e3a47d7e9846ec139ae3e08",
+        "page_number": 1,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: Who is required to complete the biometric process?  Answer: The biometric requirement is only mandatory for Pakistani residents. Foreigners are exempt from this process.",
+        "image_path": null,
+        "id": "b9a546b0a4dc4e1419341a94a4ffda71",
+        "page_number": 1,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: How long do I have to complete the biometric verification?  Answer: Once you receive the OTP, you must finish the biometric process within 45 days. An automated email will remind you to complete it.",
+        "image_path": null,
+        "id": "f937159093af59084c41d6963ca3d553",
+        "page_number": 1,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: What should I do if I am unable to complete the biometric verification?  Answer: If you face difficulties with the biometric verification, you can: Try using a different device against a dark background and ensure the device is stable while taking the picture. Visit NCCPL offices in Karachi, Lahore, or Islamabad to complete the process in person. Request an exemption by paying PKR 300/- (stamp paper charges) and submitting an affidavit to us on Whatsapp (+923003672522) or email.",
+        "image_path": null,
+        "id": "206fd776586e730109698da59c6237a7",
+        "page_number": 2,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: How can I request a biometric exemption?  Answer: To request a biometric exemption, youll need: A screenshot showing the failure in the NCC BioVerify app. A signed undertaking (affidavit). After submitting the exemption request, NCCPL will contact you for a video call via Zoom or WhatsApp to complete the process.",
+        "image_path": null,
+        "id": "1c196e3f4f267a3d85dd3fca5f1e976a",
+        "page_number": 2,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: What happens if I dont complete the biometric verification?  Answer:  If you fail to complete the biometric within 45 days, your account will be restricted. Youll only be allowed to sell stocks but not buy them. Youll have an additional 14 days to complete the biometric process after the account is restricted. If you dont complete it within this timeframe, the account will be fully blocked, and further biometric attempts will require an extension or exemption request.",
+        "image_path": null,
+        "id": "ccc7baa655a53d252f275224101eebb7",
+        "page_number": 2,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: How will I know if my biometric verification is pending or close to the deadline?  Answer: We receive reports every Monday and Friday regarding users with pending biometric verifications. If you have less than 7 days remaining, we will contact you to remind you to complete the process or provide alternate solutions if necessary.",
+        "image_path": null,
+        "id": "04f2a6b9dd810c882477d7cdafbd610e",
+        "page_number": 2,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: How much does a biometric exemption cost, and what is the process?  Answer: The exemption costs PKR 300/- for the affidavit. Once the request is submitted, NCCPL will contact you for a video call to finalize the process.",
+        "image_path": null,
+        "id": "acc7c7a475b87d9edd34553731aa18ac",
+        "page_number": 3,
+        "FAQ_Category": "Bio Verification"
+    },
+    {
+        "text": "Question: Can I complete the biometric verification from outside Pakistan?  Answer: Yes, if you are currently abroad, you can complete the biometric process either online or by visiting an NCCPL office when you return to Pakistan, provided its within 45 days of account activation.",
+        "image_path": null,
+        "id": "ecc635cbfde9f4271142a3d5cc199bcf",
+        "page_number": 3,
+        "FAQ_Category": "Bio Verification"
+    }
+]

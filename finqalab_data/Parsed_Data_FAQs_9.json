@@ -1,0 +1,58 @@
+[
+    {
+        "text": "Question: What is Capital Gains Tax (CGT)?  Answer: Capital Gains Tax (CGT) is a tax imposed on the profit made from the sale of an asset, such as shares. The same applies to profit gained from investing/trading in shares in PSX as well.",
+        "image_path": null,
+        "id": "48a583d0bd918a79c96dd116cb915b7c",
+        "page_number": 1,
+        "FAQ_Category": "Capital Gain Tax (CGT)"
+    },
+    {
+        "text": "Question: How is the amount of CGT calculated for PSX - listed shares?  Answer: The amount of CGT is calculated by subtracting the acquisition cost (purchase price) of the shares, including any related expenses, from the sale price. The prevailing CGT rate for both filers and non-filers is 15%.",
+        "image_path": null,
+        "id": "905f3da2bee43e0d89fdc776aae8c89b",
+        "page_number": 1,
+        "FAQ_Category": "Capital Gain Tax (CGT)"
+    },
+    {
+        "text": "Question: What happens if I don't pay CGT on my PSX transactions?  Answer: If you don't pay CGT on your PSX transactions, the National Clearing Company of Pakistan Limited (NCCPL) can block your account. This means you won't be able to trade or access your holdings until the outstanding CGT is paid. It is important to ensure that all CGT obligations are met to avoid any disruptions in your trading account.",
+        "image_path": null,
+        "id": "6a697edfac2015f832a130bc0afe1cee",
+        "page_number": 1,
+        "FAQ_Category": "Capital Gain Tax (CGT)"
+    },
+    {
+        "text": "Question: What are the applicable CGT rates for RDA Account Holders?  Answer: Filer rates are applied to RDA account holders irrespective of their status (Filer or Non-filer).",
+        "image_path": null,
+        "id": "509bc6c04130f907e306b30e42318a5b",
+        "page_number": 1,
+        "FAQ_Category": "Capital Gain Tax (CGT)"
+    },
+    {
+        "text": "Question: What course of action is available if an investor disagrees with the computation made by NCCPLs CGT system?  Answer: An investor should approach the Customer Support / Services Department CSD of the respective location to seek clarification on the manner of CGT computation. The investor, in case if not satisfied with the CGT computation made by NCCPL, may recompute the CGT and lodge a claim of refund while filing tax return with FBR. NCCPL, on the request of investors after computation, determination and collection of CGT, may refer the case to FBR for clarification. NCCPL will refund or adjust on receipt of requisite clarification.",
+        "image_path": null,
+        "id": "1e71bbc4c0f7e9c6a29cba4b63fadf66",
+        "page_number": 2,
+        "FAQ_Category": "Capital Gain Tax (CGT)"
+    },
+    {
+        "text": "Question: How does loss offsetting work for CGT if I incur a loss after making a profit?  Answer: If you make a profit and pay CGT, but later incur a loss, you can reduce your CGT by offsetting the loss. For example, if you pay PKR 150 CGT on a PKR 1,000 profit in November, but then incur a PKR 400 loss in December, your net gain becomes PKR 600. The tax on the loss (15% of PKR 400 = PKR 60) will be reimbursed to you in the following month, reducing your overall tax payment.",
+        "image_path": null,
+        "id": "508a20267e50fc8d2f134c3cd2dc3793",
+        "page_number": 2,
+        "FAQ_Category": "Capital Gain Tax (CGT)"
+    },
+    {
+        "text": "Question: When is CGT deducted for PSX transactions?  Answer: CGT is deducted monthly. It is not deducted at the time of each transaction when you sell shares. For example, you book a profit in November, so CGT on it shall be payable in the month of December.",
+        "image_path": null,
+        "id": "31e3cca432fa42c6f3edae77ab522ef0",
+        "page_number": 2,
+        "FAQ_Category": "Capital Gain Tax (CGT)"
+    },
+    {
+        "text": "Question: Is CGT automatically deducted from our accounts?  Answer: CGT is deducted from the cash balance available in your account. If you do not have a sufficient cash balance, you will be asked to sell some shares or add cash. If not paid, NCCPL will block your trading account.",
+        "image_path": null,
+        "id": "a3a68f51bcbbfb910b9e17c48796c7be",
+        "page_number": 3,
+        "FAQ_Category": "Capital Gain Tax (CGT)"
+    }
+]

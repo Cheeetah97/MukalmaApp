@@ -1,0 +1,79 @@
+[
+    {
+        "text": "Question: Can I have multiple portfolios in the Finqalab app?  Answer: No, you can only have one portfolio in the Finqalab app.",
+        "image_path": null,
+        "id": "0df75ae4ad99cd4ed47f7d84e3b4a030",
+        "page_number": 1,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: How do I add stocks to my portfolio?  Answer: Go to the Portfolio screen on your app. Choose the Trade option on the bottom right corner of the screen. This would allow you to buy stocks.",
+        "image_path": null,
+        "id": "a605717cd0c4d44a1de44ea876bd3e41",
+        "page_number": 1,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: How do I sell stocks in my portfolio?  Answer: Go to the Portfolio screen in your app. Choose the Trade option on the bottom right corner of the screen. Select the 'Sell' option. Through this, the users can sell any stock they bought earlier. This would also help them track their capital gains on the stock trade.",
+        "image_path": null,
+        "id": "315afd26a4b243eca2ea1eaa0f64c59f",
+        "page_number": 1,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: How do I view the overall value of my portfolio?  Answer: Go to the portfolio screen on the app. You will see the overall value of your portfolio at the top of the screen.",
+        "image_path": null,
+        "id": "2e9574d6b08fd6fe102528d70cb42bf2",
+        "page_number": 1,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: Can I track other investments such as bonds or mutual funds in my portfolio?  Answer: Currently, this option isnt available.",
+        "image_path": null,
+        "id": "31bf5ac705e873839620cf4c7dc40dd2",
+        "page_number": 1,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: Can I set alerts for specific stocks in my portfolio?  Answer: Yes, you can set alerts for stocks by clicking on the notification bell icon that appears at the top of the page when you go to stock details for your selected stock.",
+        "image_path": null,
+        "id": "00ffdf6e1899b404da590be766e23df5",
+        "page_number": 2,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: How often is the data in my portfolio updated?  Answer: The data is updated in real time.",
+        "image_path": null,
+        "id": "2aa346005acfdc4cd75519437505c85d",
+        "page_number": 2,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: Can I track the performance of my portfolio in real-time?  Answer: Yes, you can track the performance of your portfolio in real time.",
+        "image_path": null,
+        "id": "e6fce420c7ec652db5d6d65a8537a8ca",
+        "page_number": 2,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: Why does my portfolio keep loading, and my account was opened today?  Answer: Congratulations on opening your account with us! Theres a slight delay in updating your portfolio. This will be resolved shortly. Please reach out to customer support if the issue persists.",
+        "image_path": null,
+        "id": "3a4db782ea2ed81218fa587a8a7f4136",
+        "page_number": 2,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: Why cant I see transactions older than 60 days in my portfolio?  Answer: The portfolio section displays transaction history for up to the last 60 days. For older transactions, you can generate periodic reports to view your trade history. We are also working on extending the portfolio's transaction history.",
+        "image_path": null,
+        "id": "78128187e4274d1eb1e73111e4264daa",
+        "page_number": 2,
+        "FAQ_Category": "Portfolio"
+    },
+    {
+        "text": "Question: Why is my balance negative?  Answer: Here are some possible scenarios that could explain a negative balance in your account: Scenario 1: Account Opening Charges If your account was opened recently, the negative balance could be due to account opening charges that were deducted. You can check the cashbook report to confirm the charges that were applied. Scenario 2: Double Withdrawal Charge If you recently made a withdrawal request, its possible that the withdrawal amount was mistakenly charged twice. Please review the cashbook to verify and let us know if it was charged twice. Scenario 3: Insufficient Funds for a Trade If you traded for an amount higher than your available balance, this could result in a negative balance. Please review your recent trades and make sure you have sufficient funds before executing them. Scenario 4: Deposit Not Reflecting If a deposit request you made isnt reflecting in your account, please check the status of your deposit request. If it is Bank Transfer or PayFast Transfer, it would take 24 hours to reflect. If none of these scenarios resolve the issue, please contact customer support for further assistance.",
+        "image_path": null,
+        "id": "03f4a83dd03905eb5cb7df4b40b5a9dd",
+        "page_number": 3,
+        "FAQ_Category": "Portfolio"
+    }
+]

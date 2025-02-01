@@ -1,0 +1,100 @@
+[
+    {
+        "text": "Question: What are bonus shares?  Answer: Bonus shares are additional shares issued by a company to its existing shareholders free of cost, based on the number of shares already held. It is a way for a company to distribute accumulated profits or reserves without paying cash dividends.",
+        "image_path": null,
+        "id": "2a435fd19a53c6ac59f6bf202747ac04",
+        "page_number": 1,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: How are bonus shares different from dividends?  Answer: While dividends are cash payments made to shareholders from the companys profits, bonus shares are additional shares given to shareholders without any payment. Dividends provide immediate income, while bonus shares increase the number of shares you hold in the company.",
+        "image_path": null,
+        "id": "6bc54b85994244514e5fac4d3c7e860b",
+        "page_number": 1,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: How do I receive bonus shares?  Answer: Bonus shares are distributed to shareholders based on a ratio announced by the company. For example, if a company declares a 20% bonus issue, you will receive 2 additional shares for every 10 shares you already own.",
+        "image_path": null,
+        "id": "69093c697ce914832db48827248ef063",
+        "page_number": 1,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: When do I become eligible for bonus shares?  Answer: To receive bonus shares, you must own the shares on the ex-date.",
+        "image_path": null,
+        "id": "1732a4ba44e9671c622d01b12c90effd",
+        "page_number": 1,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: What is the ex-bonus date?  Answer: The ex-bonus date is similar to the ex-dividend date. It is the date on or after which if you buy the companys shares, you will not be entitled to receive the bonus shares. You must purchase the stock before the ex-bonus date and own it on that date to be eligible. XB is the sign used to denote ex-bonus.",
+        "image_path": null,
+        "id": "0fcfa7887f53a424c4ac9dafcb354c74",
+        "page_number": 2,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: What happens to the stock price after a bonus issue?  Answer: After a bonus share issue, the companys stock price typically adjusts downward to reflect the increased number of shares. The overall value of your investment should remain similar, but the value per share will decrease. Lets assume you own 100 shares of a stock with a price of PKR 50 for a total value of PKR 5,000. The company announces 10% bonus shares. After the ex-date, you would own 110 shares (100 x 1.1) and the stock price would adjust to PKR 45.45 (50 / 1.1). Note that your total value (PKR 45.45 x 110 = PKR 5,000) remains the same.",
+        "image_path": null,
+        "id": "66481f9d7eaba39508a8cbe2c78077f2",
+        "page_number": 2,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: Can I sell my bonus shares?  Answer: Yes, once you receive the bonus shares, they become regular shares, and you can sell them on the stock exchange, just like any other shares you own.",
+        "image_path": null,
+        "id": "93a102456b5447c97787cac52b45385d",
+        "page_number": 2,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: Are bonus shares taxable?  Answer: In Pakistan, bonus shares are subject to tax at the rate of 10%.",
+        "image_path": null,
+        "id": "42432f1ca3ee8f8441b84bd486a44bdf",
+        "page_number": 2,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: Do I have to pay for bonus shares?  Answer: No, bonus shares are issued free of charge. They are typically paid for by utilizing the companys retained earnings or reserves.",
+        "image_path": null,
+        "id": "0fd1210995209c5c9dd4f8c8abdcbafe",
+        "page_number": 2,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: Can a company issue bonus shares more than once?  Answer: Yes, companies can issue bonus shares multiple times, depending on their financial position and accumulated reserves.",
+        "image_path": null,
+        "id": "c9facfbebc1741642d107c7f43514c19",
+        "page_number": 3,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: What happens if I sell my shares before the bonus issue?  Answer: If you sell your shares before the ex-bonus date, the new buyer will be entitled to the bonus shares, not you. You must hold the shares on and before the ex-bonus date to be eligible for the bonus issue.",
+        "image_path": null,
+        "id": "9ece72075d79498b16f2a3a77feb9bb8",
+        "page_number": 3,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: Can I reinvest bonus shares?  Answer: Yes, once the bonus shares are credited to your account, they can be traded or reinvested as you wish, similar to any other shares in your portfolio.",
+        "image_path": null,
+        "id": "35d07dfa614e3593d56563fa254af40d",
+        "page_number": 3,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: Can I receive both dividends and bonus shares?  Answer: Yes, a company can declare both dividends and bonus shares in the same financial year, depending on its financial health and policies. Shareholders can receive dividends in cash and additional shares as a bonus.",
+        "image_path": null,
+        "id": "87a99ed765428e9ca8f5746f40a5a57d",
+        "page_number": 3,
+        "FAQ_Category": "Bonus Shares"
+    },
+    {
+        "text": "Question: How much time does it take my bonus shares to be reflected in my CDC account?  Answer: It is credited about 20 to 30 days after the ex-bonus date.",
+        "image_path": null,
+        "id": "32d03a00789faac50895ae3e29cf96d6",
+        "page_number": 3,
+        "FAQ_Category": "Bonus Shares"
+    }
+]

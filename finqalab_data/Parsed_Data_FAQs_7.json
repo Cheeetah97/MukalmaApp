@@ -1,0 +1,37 @@
+[
+    {
+        "text": "Question: How can I find the breakdown of trade commission and taxes?  Answer: For every stock traded, Finqalab charges either 0.25% or PKR 0.03 per share, whichever is higher. Example breakdown: Assuming you trade 500 shares at a price of PKR 11.00: Brokerage = 0.25% of PKR 11 = PKR 0.0275/share (rounded up to PKR 0.03/share as its higher). SST = 15% of Brokerage i.e., PKR 0.03 = PKR 0.0045/share. Total Commission & Taxes per share = PKR 0.0345. Total Commission = PKR 0.0345 x 500 shares = PKR 17.25.",
+        "image_path": null,
+        "id": "ba5aea574768785328a04597af763e91",
+        "page_number": 1,
+        "FAQ_Category": "Trade"
+    },
+    {
+        "text": "Question: What are the ready exposure charges in my cashbook?  Answer: These are accounting transactions and not actual charges. A certain percentage of your buy transaction is debited temporarily as per PSX regulations to ensure your order is not rejected. Key points: The transaction is reversed on the same day within a few minutes but may appear in the cashbook the next day. Debit and credit amounts are the same, so theres no impact on your balance. These transactions do not disrupt your trading activities.",
+        "image_path": null,
+        "id": "0c8e6d1508ffd73881cbeca1fafe28b8",
+        "page_number": 1,
+        "FAQ_Category": "Trade"
+    },
+    {
+        "text": "Question: Can I place orders outside market timings using the Finqalab app?  Answer: Yes, you can place orders after 6:00 PM. These orders will be sent to the market the following day.",
+        "image_path": null,
+        "id": "f2f7aefc2da0148503004aa114ee87d7",
+        "page_number": 2,
+        "FAQ_Category": "Trade"
+    },
+    {
+        "text": "Question: My account is opened at NCCPL, but I am unable to trade. Why?  Answer: Your account is currently in the final stage of activation. Bank transfers can take up to 1 business day to reflect in our system. Once our team receives your initial deposit, your account will be activated shortly, and you will be able to start trading. If the delay exceeds 1 business day, please feel free to contact our customer support team for assistance.",
+        "image_path": null,
+        "id": "121bea2aab581702b34d4f66f4094b9c",
+        "page_number": 2,
+        "FAQ_Category": "Trade"
+    },
+    {
+        "text": "Question: Why were my trades reversed for that day around 6-8 PM?  Answer: Actual settlement of your buy or sell transactions takes place after two working days. However, we run a process at day end to ensure the amount is deducted from your account and respective securities are allotted to you for buy trades and vice versa for sell trades. During this process, your securities may temporarily not appear (for buy trades) or reappear (for sell trades), but this is just a visual issue. Your periodic report will reflect the true holdings under your name. If you face any confusion, refer to the periodic detail report for the accurate position of your portfolio.",
+        "image_path": null,
+        "id": "f59bf00d3c4e8199982ebd85c3bfef30",
+        "page_number": 2,
+        "FAQ_Category": "Trade"
+    }
+]

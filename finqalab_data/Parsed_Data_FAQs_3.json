@@ -1,0 +1,79 @@
+[
+    {
+        "text": "Question: What payment methods are accepted in the app?  Answer: There are three deposit methods. Manual Bank Transfer, PayFast, and Instant Bank Transfer.",
+        "image_path": null,
+        "id": "83ed657d0be5b8a1034cf52dabcc59cf",
+        "page_number": 1,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: What are the account details for bank transfers?  Answer: To pay through a bank transfer to our MCB Bank Account, go to the account screen on the app, select My Payment Deposit', select Bank Transfer and then make a bank transfer on the given IBAN number. Once the transaction has been made, enter your account details and lastly, upload the receipt of deposit as proof. It takes 24 hours to process the payment. We only recommend this for transactions above PKR 1 million. Bank Transfer Initiate a Bank Transfer MCB Bank Next Capital Limited PK62MUCB0550019331001281 0550 0193 3100 1281 Enter Details",
+        "image_path": "/app/Parsed_Output/Parsed_Images/figure-1-1.jpg",
+        "id": "56e64207859825cfd007012f8ed58d8b",
+        "page_number": 1,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: How to pay through Instant Deposit?  Answer: To deposit funds into your Finqalab account, follow these steps: Log in to your Finqalab account. Navigate to Account > My Payments > Deposit Funds > Instant Deposit. Make a bank transfer using your preferred online banking channel. The funds will be reflected in your Finqalab account immediately, although it may take 5 to 10 minutes in some cases. Please note, this option will be available 2 working days after your account is opened, and no screenshot or manual process is required.",
+        "image_path": null,
+        "id": "5f7b8af68506437441844c9d33168360",
+        "page_number": 2,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: How to pay through Payfast?  Answer: Payfast allows in-app bank transfers, which means you can transfer money into your Finqalab Account without leaving the app. However, it takes 24 hours to process the payment.",
+        "image_path": null,
+        "id": "7828783623b4721b5ec922c0f10b70a8",
+        "page_number": 2,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: Can I save my payment information for future transactions?  Answer: No, you cannot save your payment information for future transactions.",
+        "image_path": null,
+        "id": "038a89aae0eb7c427a0e534ea3620120",
+        "page_number": 2,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: Can I view my payment history in the Finqalab app?  Answer: Yes, you can view the payment history. Go to the Account screen, then select Payments, and then click on Funds History. Payments M. Deposit Funds Withdraw Funds Funds History",
+        "image_path": "/app/Parsed_Output/Parsed_Images/figure-3-2.jpg",
+        "id": "8cf29a5d27cbd5ff755491343e01b597",
+        "page_number": 3,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: How long will it take for the payment to be deposited into my account?  Answer: That depends on payment methods. If you make an instant bank transfer, then it will take 5-10 mins. Whereas manual Bank Transfer or PayFast transfer will take up to 1 business day.",
+        "image_path": null,
+        "id": "1a1a61d27642e6225c1291f56c92ff1e",
+        "page_number": 3,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: Why is my instant deposit feature not activated yet?  Answer: The instant deposit feature is usually activated within 2-3 working days after your account is opened.",
+        "image_path": null,
+        "id": "0dbbf5780bc0dc575c94164c58880d46",
+        "page_number": 4,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: Why is my instant deposit delayed?  Answer: The instant deposit feature usually takes a few minutes, but if theres a delay, it could be an issue on the banks end. We will raise a dispute with MCB and keep you updated. They usually resolve the issue within a few working hours. If you need immediate access to funds, you can make another transfer using the Bank Transfer option and attach the screenshot in the app.",
+        "image_path": null,
+        "id": "84ddff15e98d62f2e924b3d3178d0fd4",
+        "page_number": 4,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: I did not receive my instant transfer in Finqalab account within 10 minutes. What should I do?  Answer: If your instant transfer hasnt been credited to your Finqalab account within 10 minutes, please email us at support@finqalab.com with a screenshot of the receipt or send it to us on Whatsapp (+923003672522). Our team will review the issue, escalate it to the bank by sending the transaction receipt, and follow up to ensure your funds are credited promptly.",
+        "image_path": null,
+        "id": "1ecfaebea25cab9d037bbf8973646d83",
+        "page_number": 4,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    },
+    {
+        "text": "Question: Why is my account not activated after submitting the initial deposit?  Answer: Once the deposit is received, we send the account for activation to NCCPL, which usually takes at least one working day. Delays may occur, but our team actively follows up to ensure your account is opened promptly after activation.",
+        "image_path": null,
+        "id": "5fab11763af665f3a22132ed374e46b8",
+        "page_number": 4,
+        "FAQ_Category": "Bank Transfers, Deposits and Payments"
+    }
+]

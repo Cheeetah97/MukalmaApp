@@ -1,0 +1,7 @@
+{
+    "dependencies": ["./finqalab_agent"],
+    "graphs": {
+      "agent": "./finqalab_agent/agent.py:graph"
+    },
+    "env": ".env"
+  }

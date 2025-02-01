@@ -1,0 +1,37 @@
+[
+    {
+        "text": "Question: Why am I getting an error saying I do not possess sufficient holdings when trying to sell?  Answer: Have you already placed a limit sell order for these shares? If yes, that order needs to be canceled first. You can check and cancel pending orders by navigating to Portfolio > Todays Orders.",
+        "image_path": null,
+        "id": "7dff69225d23aafd6ab366d73bb27d9b",
+        "page_number": 1,
+        "FAQ_Category": "Trading Errors and Restrictions"
+    },
+    {
+        "text": "Question: Why is my client code not active?  Answer: Your client code is currently inactive because the initial deposit has not yet been processed. Once the funds are deposited into your account, well update the system and activate your client code.",
+        "image_path": null,
+        "id": "ae6ef5e2b23019df0d1751a5908aa669",
+        "page_number": 1,
+        "FAQ_Category": "Trading Errors and Restrictions"
+    },
+    {
+        "text": "Question: What does it mean when the market is suspended?  Answer: The market suspension means that trading in the stock market has temporarily halted. Once the trading resumes, youll be able to place trades again.",
+        "image_path": null,
+        "id": "2e20f4a256bfb22fdb30efcc8f9b2d8e",
+        "page_number": 1,
+        "FAQ_Category": "Trading Errors and Restrictions"
+    },
+    {
+        "text": "Question: Why is my qualification restricted, and what can I do?  Answer: Your qualification may be restricted because your NCCPL biometric is pending. Heres how you can resolve this: Complete the Biometric Process: Use the NCCPL BioVerify app to complete your biometric verification. Visit NCCPL Offices: You can visit their offices in Karachi, Lahore, or Islamabad to complete the process. Exemption Request: If you are unable to complete the biometric process, we can request an exemption for PKR 300/-. This requires a signed affidavit and proof of failure in the BioVerify app. NCCPL will then contact you for a video call on WhatsApp or Zoom to complete the verification.",
+        "image_path": null,
+        "id": "3e409d50f894671287fbb7ec235ae8f4",
+        "page_number": 2,
+        "FAQ_Category": "Trading Errors and Restrictions"
+    },
+    {
+        "text": "Question: I received a message when placing the order: There are no buyers or There are no sellers Answer: Daily stock price movements are restricted to 10% or PKR 1/share whichever is higher. If a stock moves by this magnitude in either direction, trading is halted. Trading can resume if there are buyers or sellers available within the range for the day.",
+        "image_path": null,
+        "id": "df6db7c06640de1515f21fefc0740b01",
+        "page_number": 2,
+        "FAQ_Category": "Trading Errors and Restrictions"
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "text": "Question: What is a dividend?  Answer: A dividend is a payment made by a corporation to its shareholders, usually in the form of cash or additional shares. It is a way for the company to share its profits with the investors.",
+        "image_path": null,
+        "id": "818df34dd5df805e0f00863463d0cb76",
+        "page_number": 1,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: How do I receive dividends from PSX-listed companies?  Answer: Dividends are typically credited directly to your bank account if you are a shareholder of the company on the day it goes ex. The ex-date falls two working days before the start of the Book Closure period, which is announced by the company. If you sell the shares before the ex- date or purchase shares after the ex-date, you will not receive the dividend.",
+        "image_path": null,
+        "id": "a7674b2a8343d2d4c67795d1b7499101",
+        "page_number": 1,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: How can I view the dividend in my account? Why dont I see a dividend section?  Answer: Dividends are transferred directly to your bank account. To view your dividend history, please download the CDC Access app via Play Store or App Store.",
+        "image_path": null,
+        "id": "1b15a1078917b557dc0ffb89bdb87803",
+        "page_number": 1,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: When are dividends paid out on PSX stocks?  Answer: Dividends are paid out after the companys board of directors approves the payout. The date of payment is specified in the companys dividend declaration, and it can vary (quarterly, semi-annually, or annually) based on the companys policies.",
+        "image_path": null,
+        "id": "e34ddbfd9a4b9f03089b0ee4f01aeb9b",
+        "page_number": 1,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: How is the dividend rate determined?  Answer: The dividend rate is determined by the companys board of directors, based on the companys profitability, cash flow, and/or future plans.",
+        "image_path": null,
+        "id": "746215aaf203e2dbe20cbc181d5b5ce6",
+        "page_number": 2,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: What is the dividend yield, and how is it calculated?  Answer: The dividend yield is the percentage of the companys share price that is received back in the form of a cash dividend. It is calculated as: Dividend Yield = (Annual Dividend Per Share / Share Price) 100",
+        "image_path": null,
+        "id": "d94d74128b4fef254116836d2ecfcf24",
+        "page_number": 2,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: What is the ex-dividend date?  Answer: The ex-dividend date is the date on which a stock starts trading without the value of the next dividend payment. If you purchase the stock on or after this date, you will not be entitled to the upcoming dividend.",
+        "image_path": null,
+        "id": "c89aac093cf7872751c50f873270e3e5",
+        "page_number": 2,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: Why is XD written on a stock?  Answer: XD means ex-dividend. Investors who purchase a stock on its ex-dividend date or after that will not receive the next dividend payment. This symbol means that the company ex-dividend date just passed recently, and its price was reduced by the dividend paid. XD symbol shall be removed once the dividend is credited by the company into the shareholders bank accounts.",
+        "image_path": null,
+        "id": "8bb9fd8ffe0f1842b522950ad909ce93",
+        "page_number": 2,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: Are dividends taxed?  Answer: Yes, dividends are subject to tax. Dividends are taxed at a flat rate of 15% in Pakistan, except for IPPs stocks which are taxed at 7.5%.",
+        "image_path": null,
+        "id": "956131af10778d24b4cb0beab91add1c",
+        "page_number": 2,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: How often do companies pay dividends on PSX?  Answer: Companies typically pay dividends on a quarterly, semi-annual, or annual basis. However, the frequency depends on the company's dividend policy and business performance.",
+        "image_path": null,
+        "id": "15486cb291befdf75b29a6b23712a1f1",
+        "page_number": 3,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: Do dividends affect the stock price?  Answer: Yes, the stock price may drop after the ex-dividend date as the company is now trading without the dividend value. This drop usually reflects the dividend amount being paid out to shareholders.",
+        "image_path": null,
+        "id": "6928f63814ec6490188976025ee3c2bc",
+        "page_number": 3,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: Can I see dividend history or upcoming dividend payments for a specific stock?  Answer: You can easily access dividend history for a specific stock by following these steps: Choose the particular stock you want to view dividend information for. Within the stock's transaction history, select the \"Dividends\" section. Here you will be able to check the dividends for the last four years As for upcoming dividend payments, you can access it on the Discover Page, under the Notices section, where all the announcements made by the listed companies are posted.",
+        "image_path": null,
+        "id": "32da1c1beee4f0e12d37f4c50fb73f13",
+        "page_number": 3,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: How long does it take the dividend to be credited into my bank account?  Answer: It is credited about 20 to 30 days after the ex-dividend date.",
+        "image_path": null,
+        "id": "23bedc60f1a2db2d9f06c8f3849df1f1",
+        "page_number": 3,
+        "FAQ_Category": "Dividends"
+    },
+    {
+        "text": "Question: Can I directly reinvest my dividend instead of receiving it in my bank?  Answer: Unfortunately, PSX does not allow direct reinvesting of dividends. Companies transfer dividends directly to your bank account, and brokers cannot access these funds. You can manually transfer the amount and reinvest it.",
+        "image_path": null,
+        "id": "cefe304a93b6aa1d38f1cf4c06282951",
+        "page_number": 4,
+        "FAQ_Category": "Dividends"
+    }
+]

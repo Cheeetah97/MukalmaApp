@@ -1,0 +1,58 @@
+[
+    {
+        "text": "Question: How to register on CDC Access/Portal?  Answer: Download the CDC Access app from the Google Play Store or App Store. Open the App or visit the portal and click Register. Choose Individual in investor category, CDS account for account type, participant number for Next Capital is 12484, Your Finqalab client code and sub-account number (found in the account opening email with the subject Opening of Stock Trading Account). Submit to complete registration.",
+        "image_path": null,
+        "id": "2abc2bb753745ee0df032d70d6076f1a",
+        "page_number": 1,
+        "FAQ_Category": "Shares"
+    },
+    {
+        "text": "Question: How can I transfer my shares to a CDC Investor Account?  Answer: You need to email cs@nextcapital.com.pk from your registered email address, providing the details of the shares you want to transfer and your CDC Investor Account number. For guidance, check out this tutorial: https://youtu.be/LKBW- DKL2B4? si=oH58MQgxkYnPUJXD",
+        "image_path": null,
+        "id": "9927e04cfb32ab85b27949a025e3377b",
+        "page_number": 1,
+        "FAQ_Category": "Shares"
+    },
+    {
+        "text": "Question: How do I transfer shares from a CDC Investor Account to Finqalab?  Answer: To transfer your shares to a Finqalab sub-account (Next Capital Limited), initiate a request via the CDC Access app or CDC portal. If you're a first-time user, register on the portal or app before starting the transfer.",
+        "image_path": null,
+        "id": "8813e302d3346c3e57f2877df233c859",
+        "page_number": 1,
+        "FAQ_Category": "Shares"
+    },
+    {
+        "text": "Question: How can I transfer shares from another broker to Finqalab?  Answer: You need to initiate a request with your current broker. Provide them with the following details: Finqalab Participant ID: 12484 Your Finqalab client code and sub-account number (found in the account opening email with the subject Opening of Stock Trading Account). Ensure there are no pending charges with the broker. Once the shares are transferred via CDC, they will appear in your Finqalab portfolio by the end of the day.",
+        "image_path": null,
+        "id": "4e389a1361c128625ccd0f8eae1f9378",
+        "page_number": 2,
+        "FAQ_Category": "Shares"
+    },
+    {
+        "text": "Question: How do I transfer my shares from Finqalab to another broker?  Answer: Send an email to cs@nextcapital.com.pk, requesting the transfer of your shares. Include the participant number and sub-account number of the other brokerage account in the email.",
+        "image_path": null,
+        "id": "4c847dc3072da6728845dbf8457f4ecb",
+        "page_number": 2,
+        "FAQ_Category": "Shares"
+    },
+    {
+        "text": "Question: Why is the average cost of my shares incorrect after transferring to Finqalab?  Answer: To ensure the correct average cost, please share the average cost of your shares over email at the time of transfer. If this was not done, our system assigns a default value based on the transfer date. If the shares are already transferred, you can still provide the average cost for each symbol. Once updated by the operations team, the new average cost will reflect the next time you place a trade.",
+        "image_path": null,
+        "id": "cc1a07bc851e1a1fcd670b6e4f2cbece",
+        "page_number": 2,
+        "FAQ_Category": "Shares"
+    },
+    {
+        "text": "Question: How do I open a CDC sub-account?  Answer: Your CDC sub-account is automatically opened when you create an account with Finqalab. You dont need to take any additional steps.",
+        "image_path": null,
+        "id": "96f03f6b2ffad77ba26bc12a6874e800",
+        "page_number": 2,
+        "FAQ_Category": "Shares"
+    },
+    {
+        "text": "Question: When will the shares I bought today reflect in my CDC account?  Answer: It takes two working days for the shares purchased today to reflect in your CDC sub- account.",
+        "image_path": null,
+        "id": "420842684db2b77306f115500cdaf809",
+        "page_number": 3,
+        "FAQ_Category": "Shares"
+    }
+]

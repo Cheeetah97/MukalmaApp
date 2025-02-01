@@ -1,0 +1,30 @@
+[
+    {
+        "text": "Question: I am unable to link my bank account in Finqalab for withdrawal. What should I do?  Answer: This error usually occurs when the account title in Finqalab does not match the title on your bank account. To resolve this, please verify that your bank account is under your name. If it is, kindly share the IBAN with us, and we will manually add your bank account to our system.",
+        "image_path": null,
+        "id": "16ce1add9b724d97540a97c415988666",
+        "page_number": 1,
+        "FAQ_Category": "Withdrawal"
+    },
+    {
+        "text": "Question: Why am I not getting the withdrawal option and my available cash is less than 5,000?  Answer: You need to maintain a minimum balance of 5,000 for an active trading account. This ensures funds are available in case of charges or taxes being debited. Without this, non- payment could lead to your account being blocked by NCCPL. However, you can still withdraw the amount if no charges are pending. To do so, email us with your withdrawal request.",
+        "image_path": null,
+        "id": "1d1693a67c859e3cf2f721286fad8f8f",
+        "page_number": 1,
+        "FAQ_Category": "Withdrawal"
+    },
+    {
+        "text": "Question: I made a sale transaction today or yesterday. When can I withdraw the funds?  Answer: The PSX operates on a T+2 settlement cycle. This means the amount from your sale transaction will be transferred to your account two working days later. You can make a withdrawal request once the funds are settled.",
+        "image_path": null,
+        "id": "3b1ab4e6295878c83cdc527870eb16ff",
+        "page_number": 1,
+        "FAQ_Category": "Withdrawal"
+    },
+    {
+        "text": "Question: Why are unsettled funds displayed when I attempt to withdraw funds?  Answer: The PSX follows a T+2 settlement process. If you sell a stock today, the funds will be transferred to your account after two working days. While you can use unsettled funds to buy more stocks, you cannot withdraw them before they are settled.",
+        "image_path": null,
+        "id": "3b08677eb2e9c4bbb6b80fcc44574e39",
+        "page_number": 2,
+        "FAQ_Category": "Withdrawal"
+    }
+]

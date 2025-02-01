@@ -1,0 +1,114 @@
+[
+    {
+        "text": "Question: Is there an option to view detailed information about a particular stock, such as its price, volume, and market capitalization?  Answer: Yes. To access comprehensive details about a specific stock, simply select the stock you are interested in, and you will be presented with the option to view an array of information, such as its current price, trading volume, market capitalization, and other pertinent stock details.",
+        "image_path": null,
+        "id": "416e03f277ecf720dd05c32bebdf9d0d",
+        "page_number": 1,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Is historical price data available for stocks in the app?  Answer: Yes, it is.",
+        "image_path": null,
+        "id": "21c9bf2a797c0ade727fb3e84a3c92f3",
+        "page_number": 1,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Can I access real-time stock quotes and market data in the app?  Answer: Yes, you can.",
+        "image_path": null,
+        "id": "7eb0960cbe1897feabf1af4a5fc77922",
+        "page_number": 1,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: How often is the stock data updated in the app?  Answer: The stock data is updated in real time.",
+        "image_path": null,
+        "id": "b0e7a40dd428260fba7f99946b3f60b1",
+        "page_number": 1,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Can I view the performance chart of a stock over a specific time period?  Answer: Yes. You have the option to view the performance chart of a specific stock over a designated time period by accessing the stock details within the watchlist. This feature enables you to visually track the stock's performance trends and fluctuations over the selected timeframe.",
+        "image_path": null,
+        "id": "6a2ca092a8cf217e0aea64c60a4fb9f0",
+        "page_number": 2,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Are there any technical indicators or charts available for analyzing stock trends in the app?  Answer: Yes. The users can see the price level indicators, price level charts, key statistics and key financial charts. At Finqalab, we are continuously working to add more technical indicators and charts for users.",
+        "image_path": null,
+        "id": "5497128544138ca324291b91af04471c",
+        "page_number": 2,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Can I access financial statements or annual reports of companies listed on the app?  Answer: Yes, you can access the recent financial statements and annual reports of the listed companies on the app through Notices Tab in the Discover section or Notices space in the Stock Details.",
+        "image_path": null,
+        "id": "ae120ed437b38c1e5b3d68131475fe7e",
+        "page_number": 2,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Can I track the news and announcements related to a particular stock in the app?  Answer: You can conveniently stay informed about news and announcements concerning a specific stock by following these steps: Navigate to the Discover section of the app. In this section, you will find a compilation of the latest news and announcements, including those related to the stock you are interested in. For announcement, go on the Notices section of the app and there you will find all the recent announcements posted by listed companies.",
+        "image_path": null,
+        "id": "62cab66242457b9c4051fc69d002e72c",
+        "page_number": 2,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Can I compare the financial performance of different companies within the app?  Answer: No. Currently, our app does not offer the capability to compare the financial performance of different companies.",
+        "image_path": null,
+        "id": "fba7088fd83196cfd9fbef68c8c5d79f",
+        "page_number": 3,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: How do I add a stock to my portfolio from the stock details page?  Answer: Go to the Markets page in your app. Then choose the Trade option on the bottom right corner of the screen. It would allow you to buy, sell or add a dividend.",
+        "image_path": null,
+        "id": "f415870c469ea2d7988ff3609e49c529",
+        "page_number": 3,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: The Graph does not show any values?  Answer: The graph may not show value if the stock has not traded during the day. If the issue persists: Close the app and try opening it again. Sign out and sign in again. If the issue still persists, contact our customer support through WhatsApp (+923003672522) or email your query at support@finqalab.com",
+        "image_path": null,
+        "id": "7c8a5306793fcfc1a06e7346f56abaab",
+        "page_number": 3,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: How do I turn on notifications for each stock?  Answer: To set up notifications for individual stocks, follow these steps: Select the desired stock, which will lead you to the stock details page. On the top-right corner of the page, you will find a notification bell icon. Tap on it to enable notifications for that specific stock.",
+        "image_path": null,
+        "id": "7e7826dd334950fa178ff10d833575ab",
+        "page_number": 3,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Can I customize notifications for each stock?  Answer: Yes, you may create custom alerts for each stock.",
+        "image_path": null,
+        "id": "5d634418d6640872c70a42ac93e8110b",
+        "page_number": 4,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: What does Minimum Lot Size mean?  Answer: This means that you need to buy a minimum quantity for a share. In case of ETFs the minimum lot size is 500 or in multiples of 500 shares. Whereas, for non-ETF stocks the minimum lot size is 1 share.",
+        "image_path": null,
+        "id": "6480d80e0ea4478b4fb7ec32796293f7",
+        "page_number": 4,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Can we buy indices such as KSE100 and KMI30 through finqalab?  Answer: Indices cannot be traded on PSX, they are only there for tracking purposes. However, you can buy ETFs that have the objective to match the index returns. For example, MIIETF tracks KMI30.",
+        "image_path": null,
+        "id": "e3796dcc7e686074b63cfdb057c92ea8",
+        "page_number": 4,
+        "FAQ_Category": "Stock Details"
+    },
+    {
+        "text": "Question: Can I track stocks on other stock exchanges using Finqalab?  Answer: Currently, Finqalab only supports the trading of stocks listed on the Pakistan Stock Exchange (PSX).",
+        "image_path": null,
+        "id": "ef20c8b8f835463354e93e0003f03d9d",
+        "page_number": 4,
+        "FAQ_Category": "Stock Details"
+    }
+]
