@@ -1,5 +1,5 @@
 {
-    "dependencies": ["./finqalab_agent"],
+    "dependencies": ["."],
     "graphs": {
       "agent": "./finqalab_agent/agent.py:graph"
     },
