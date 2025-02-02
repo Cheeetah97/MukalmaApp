@@ -73,7 +73,7 @@ def _load_nltk_tokenizer(tok_name: str):
 
 
 @lru_cache(maxsize = 1)
-def _get_mqr(llm: str, k_bm25: int):
+def _download_finqalab_data():
 
     files = [f'Parsed_Data_FAQs_{i}.json' for i in range(1,16)]
 
@@ -82,7 +82,13 @@ def _get_mqr(llm: str, k_bm25: int):
         headers = {"Authorization": f"token {os.getenv("GITHUB_TOKEN")}"}
         data = requests.get(url, headers=headers).json()
         with open(file_name, 'w') as f:
-            json.dump(data, f, indent=4) 
+            json.dump(data, f, indent=4)
+
+
+@lru_cache(maxsize = 1)
+def _get_mqr(llm: str, k_bm25: int):
+
+    files = [f'Parsed_Data_FAQs_{i}.json' for i in range(1,16)]
 
     all_documents = []
 

@@ -1,9 +1,10 @@
 import os
 from langchain_core.tools import tool
 from typing import Annotated
-from finqalab_agent.utils.load_once import _get_ensemble_ret, _load_nltk_tokenizer
+from finqalab_agent.utils.load_once import _get_ensemble_ret, _load_nltk_tokenizer, _download_finqalab_data
 from langchain_community.document_transformers import LongContextReorder
 _load_nltk_tokenizer("punkt_tab")
+_download_finqalab_data()
 
 def information_retriever_tool(query: Annotated[str, "User's Query in English"]) -> Annotated[str, "Retrieved Context"]:
 
