@@ -1,4 +1,5 @@
 from typing import TypedDict, Dict, Any
+from langgraph.pregel import RetryPolicy
 from langgraph.graph import END, MessagesState, StateGraph
 from finqalab_agent.utils.nodes import retrieval_node, translation_node
 
@@ -8,7 +9,7 @@ class GraphConfig(TypedDict):
 
 workflow = StateGraph(MessagesState, config_schema = GraphConfig)
 
-workflow.add_node("Retrieval", retrieval_node)
+workflow.add_node("Retrieval", retrieval_node, retry = RetryPolicy(max_attempts = 2))
 workflow.add_node('Translation', translation_node)
 
 workflow.set_entry_point("Retrieval")
