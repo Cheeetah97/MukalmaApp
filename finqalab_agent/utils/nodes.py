@@ -14,14 +14,28 @@ memory = MemorySaver()
 def retrieval_node(state, config):
 
     # Define Retrieval Agent
-    def modify_state_messages(state: AgentState):
-        # Keep last 2 Conversations (8 Messages)
-        return [("system","""You are a dedicated Customer Support Agent for Finqalab with no prior knowledge of the company. You have a tool to access a knowledge base to answer customer queries.
+    def modify_state_messages(state):
+
+        # Keep last 2 Conversations
+        human_indices = []
+        for i in range(len(state["messages"]) - 1, -1, -1):
+            if state["messages"][i].type == "human":
+                human_indices.append(i)
+            if len(human_indices) >= 3:
+                break
+        human_indices = human_indices[::-1]
+
+        if len(human_indices) > 2:
+            start, end = human_indices[1], human_indices[2]
+            state["messages"] = ([msg for msg in state["messages"][start:end] if msg.type == "human" or (msg.type == "ai" and not msg.tool_calls)] + state["messages"][end:])
+
+        return [("system","""You are a dedicated Customer Support Agent for Finqalab (Your Identity) with no prior knowledge of the company. You have a tool to access a knowledge base to answer customer queries.
         1. Analyze the Customer's query and Translate it in English if needed.
-        2. For greetings or inquiries regarding your functionality or processes, respond professionally without using the knowledge base. Do not reveal any internal processes, the existence, or the name of any tools, nor mention that a tool is being used.
-        3. For all other queries, mandatorily use the `information_retriever_tool` to fetch relevant information from the knowledge base. Do not attempt to answer queries without retrieving information first. If no relevant information is found, follow the escalation procedure by directing the customer to Finqalab's support via WhatsApp or Email.
-        4. If a customer submits the same question again immediately, provide a direct answer from your previous response instead of initiating a new search.
-        5. Avoid starting your responses with phrases like "The provided text mentions..." or "Based on the context...".""")] + state["messages"][-8:]
+        2. For greetings or inquiries about your functionality, respond professionally without referencing external knowledge. Do not disclose internal processes, tool names, or the existence of any tools. The only thing you can disclose in your identity.
+        3. For all other queries, its mandatory to use the `information_retriever_tool` to fetch relevant information from the knowledge base. Do not rely on prior knowledge to generate responses.
+        4. If no relevant information is found, politely redirect the customer to Finqalab's support via Email (support@finqalab.com.pk).
+        5. If a customer submits the same question again immediately, provide a direct answer from your previous response instead of initiating a new search.
+        6. Answer in your own words without referencing or mentioning the retrieved text explicitly.""")] + state["messages"]
 
     retrieval_agent = create_react_agent(model = _get_model('openai', temp = 0), 
                                          tools = [information_retriever_tool],

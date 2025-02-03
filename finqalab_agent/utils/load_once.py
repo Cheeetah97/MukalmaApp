@@ -34,7 +34,7 @@ def _get_model(name: str, temp: str):
     elif name == 'openai':
         model = ChatOpenAI(model = 'gpt-4o-mini', 
                            openai_api_key = os.getenv("OPENAI_API_KEY"), 
-                           max_completion_tokens = 750,
+                           max_completion_tokens = 1024,
                            max_retries = 2)
     else:
         raise ValueError(f"Unsupported Model Name: {name}")

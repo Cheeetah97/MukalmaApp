@@ -8,7 +8,7 @@ _download_finqalab_data()
 
 def information_retriever_tool(query: Annotated[str, "User's Query in English"]) -> Annotated[str, "Retrieved Context"]:
 
-    """This tool empowers customer support agents by providing quick and accurate access to information from Finqalab's comprehensive FAQ database. It efficiently addresses a wide range of customer inquiries, including those about Finqalab's services, its mobile app, and common trading concepts."""
+    """This tool empowers customer support agents by providing quick and accurate access to information from Finqalab's comprehensive FAQ database. It efficiently addresses a wide range of customer inquiries, including those about Finqalab's services, app, investments, or trading (including general inquiries, account opening, transfers, portfolio, stocks, shares, trades, withdrawals, CGT, dividends, bonus shares, investment advisory, trading errors, bio verification, or technical app issues)"""
     
     ensemble_retriever = _get_ensemble_ret(w1 = 0.5,
                                            w2 = 0.5,
