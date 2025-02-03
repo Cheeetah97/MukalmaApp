@@ -14,8 +14,8 @@ def information_retriever_tool(query: Annotated[str, "User's Query in English"])
                                            w2 = 0.5,
                                            c = 30,
                                            k_bm25 = 2,
-                                           llm_mqr = 'pro',
-                                           llm_sqr = 'pro')
+                                           llm_mqr = 'google',
+                                           llm_sqr = 'google')
     retrieved_docs = ensemble_retriever.invoke(query)
     retrieved_docs = retrieved_docs[:5]
     retrieved_docs = LongContextReorder().transform_documents(retrieved_docs)

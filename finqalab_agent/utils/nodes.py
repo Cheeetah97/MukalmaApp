@@ -69,7 +69,7 @@ def translation_node(state):
         """
     )
 
-    structured_llm = _get_model('pro', temp = 0).with_structured_output(TranslationOutput)
+    structured_llm = _get_model('google', temp = 0).with_structured_output(TranslationOutput)
     structured_response = structured_llm.invoke(routing_prompt.format(query = human_messages[-1].content, response = ai_messages[-1].content))
     
     return {"messages": [AIMessage(structured_response.output)]}
