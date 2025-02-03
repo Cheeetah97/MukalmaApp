@@ -7,6 +7,7 @@ from typing import List
 from dotenv import load_dotenv
 from functools import lru_cache
 from nltk.tokenize import word_tokenize
+from langchain_openai import ChatOpenAI
 from langchain_qdrant import QdrantVectorStore
 from langchain.retrievers import EnsembleRetriever
 from langchain_core.prompts import PromptTemplate
@@ -24,11 +25,19 @@ load_dotenv()
 @lru_cache(maxsize = 2)
 def _get_model(name: str, temp: str):
     
-    model =  ChatGoogleGenerativeAI(api_key = os.getenv("GOOGLE_PRO_API_KEY"),
-                                    temperature = temp,
-                                    max_retries = 2,
-                                    max_tokens = 750,
-                                    model = f"gemini-1.5-{name}")
+    if name == 'google':
+        model =  ChatGoogleGenerativeAI(api_key = os.getenv("GOOGLE_PRO_API_KEY"),
+                                        temperature = temp,
+                                        max_retries = 2,
+                                        max_tokens = 750,
+                                        model = "gemini-1.5-pro")
+    elif name == 'openai':
+        model = ChatOpenAI(model = 'gpt-4o-mini', 
+                           openai_api_key = os.getenv("OPENAI_API_KEY"), 
+                           max_completion_tokens = 750,
+                           max_retries = 2)
+    else:
+        raise ValueError(f"Unsupported Model Name: {name}")
 
     return model
 
