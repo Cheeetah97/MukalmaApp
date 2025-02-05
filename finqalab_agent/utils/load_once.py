@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 from functools import lru_cache
 from nltk.tokenize import word_tokenize
 from langchain_openai import ChatOpenAI
+from qdrant_client import QdrantClient
+from langchain_core.documents import Document
 from langchain_qdrant import QdrantVectorStore
 from langchain.retrievers import EnsembleRetriever
 from langchain_core.prompts import PromptTemplate
@@ -97,26 +99,32 @@ def _download_finqalab_data():
 @lru_cache(maxsize = 1)
 def _get_mqr(llm: str, k_bm25: int):
 
-    files = [f'Parsed_Data_FAQs_{i}.json' for i in range(1,16)]
+    # files = [f'Parsed_Data_FAQs_{i}.json' for i in range(1,16)]
+
+    # all_documents = []
+
+    # for file_name in files:
+    #     loader = JSONLoader(
+    #         file_path = file_name,
+    #         jq_schema = '.[] | {text}',
+    #         content_key='text',
+    #         text_content = False
+    #     )
+    #     documents = loader.load()
+
+    #     with open(file_name, 'r') as f:
+    #         data = json.load(f)
+    #         data_source = data[0]['FAQ_Category']
+    #         for doc in documents:
+    #             doc.metadata['FAQ_Category'] = data_source
+
+    #     all_documents += documents
+
+    client = QdrantClient(url = os.getenv("QDRANT"), api_key = os.getenv("QDRANT_API_KEY"))
 
     all_documents = []
-
-    for file_name in files:
-        loader = JSONLoader(
-            file_path = file_name,
-            jq_schema = '.[] | {text}',
-            content_key='text',
-            text_content = False
-        )
-        documents = loader.load()
-
-        with open(file_name, 'r') as f:
-            data = json.load(f)
-            data_source = data[0]['FAQ_Category']
-            for doc in documents:
-                doc.metadata['FAQ_Category'] = data_source
-
-        all_documents += documents
+    for doc in client.scroll(collection_name = "qa_collection_google", limit = 150)[0]:
+        all_documents.append(Document(page_content = doc.payload['page_content'], metadata = doc.payload['metadata']))
     
     class LineListOutputParser(BaseOutputParser[List[str]]):
         """Output parser for a list of lines."""

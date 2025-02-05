@@ -52,8 +52,8 @@ def translation_node(state):
         """Structured output for translation"""
         output: str = Field(description = "Finalized Output")
 
-    human_messages = [message for message in state["messages"] if message.type in ("human")]
-    ai_messages = [message for message in state["messages"] if message.type in ("ai")]
+    last_human = next((msg for msg in reversed(state["messages"]) if msg.type == "human"), None)
+    last_ai = next((msg for msg in reversed(state["messages"]) if msg.type == "ai"), None)
 
     # Define Translation Chain
     routing_prompt = PromptTemplate(
@@ -84,6 +84,6 @@ def translation_node(state):
     )
 
     structured_llm = _get_model('google', temp = 0).with_structured_output(TranslationOutput)
-    structured_response = structured_llm.invoke(routing_prompt.format(query = human_messages[-1].content, response = ai_messages[-1].content))
+    structured_response = structured_llm.invoke(routing_prompt.format(query = last_human.content, response = last_ai.content))
     
     return {"messages": [AIMessage(structured_response.output)]}
