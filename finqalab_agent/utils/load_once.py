@@ -32,7 +32,7 @@ def _get_model(name: str, temp: str):
                                         temperature = temp,
                                         max_retries = 2,
                                         max_tokens = 750,
-                                        model = "gemini-1.5-pro")
+                                        model = "gemini-2.0-flash")
     elif name == 'openai':
         model = ChatOpenAI(model = 'gpt-4o-mini', 
                            openai_api_key = os.getenv("OPENAI_API_KEY"), 
