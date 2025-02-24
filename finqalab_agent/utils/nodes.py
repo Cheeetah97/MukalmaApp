@@ -18,10 +18,6 @@ memory = MemorySaver()
 
 def rewrite_query_node(state) -> Command[Literal["intent_detector","retriever"]]:
 
-    class RewrittenQuery(BaseModel):
-        """Most recent user query rewritten based on the context of previous messages"""
-        rewritten_query: str = Field(description = "Rewritten Query")
-
     # State Modification (Keeping last 3 Conversations)
     human_indices = []
     for i in range(len(state["messages"]) - 1, -1, -1):
@@ -35,46 +31,23 @@ def rewrite_query_node(state) -> Command[Literal["intent_detector","retriever"]]
         start, end = human_indices[0], human_indices[2]
         state["messages"] = [msg for msg in state["messages"][start:end + 1]]
     
-    # Making Conversation History
-    recent_user_query = None
-    messages = state['messages'].copy()
+    def modify_state_messages(state):
     
-    if len(messages) > 1:
-        formatted_history = []
-        for i in range(len(messages)):
-            if messages[i].type == "human":
-                if i == len(messages) - 1:
-                    recent_user_query = messages[i].content
-                elif i == len(messages) - 3:
-                    formatted_history.append(f"User's Query: {state['rewritten_query']}")
-                else:
-                    formatted_history.append(f"User's Query: {messages[i].content}")
-            elif messages[i].type == "ai":
-                formatted_history.append(f"AI Message: {messages[i].content}")
-    else:
-        recent_user_query = messages[-1].content
-        return Command(goto = "intent_detector", update = {"rewritten_query": recent_user_query})
+        return [("system","""You are a highly skilled AI assistant specialized in rewriting customer queries.
+        Follow these steps:
+        1. If the customer query is clear and self-contained (e.g., greeting, simple question), return it as it is.
+        2. If the customer query is ambiguous and requires historical context to understand, rewrite it.
+        3. You must always return either the exact customer query or the rewritten customer query. You are not allowed to output anything else.""")] + state["messages"]
 
-    if not recent_user_query:
-        return Command(goto = "retriever", update = {"rewritten_query": None})
-    
-    # Making ReWrite Prompt
-    rewrite_prompt = f"""
-    Rewrite the following user query for clarity and context based on the conversation history. 
-    If the query is already clear, return it as is.
-
-    Conversation History:
-    {"\n".join(formatted_history)}
-
-    User's Query: {recent_user_query}
-    Rewritten Query:
-    """
-
-    llm = _get_model('openai', temp = 0)
+    agent_config = {"recursion_limit": 6}
+    rewriter_agent = create_react_agent(model = _get_model('openai', temp = 0),
+                                        tools = [],
+                                        prompt = modify_state_messages,
+                                        checkpointer = memory)
+    result = rewriter_agent.invoke(state)
 
     try:
-        structured_llm = llm.with_structured_output(RewrittenQuery)
-        rewritten_query = structured_llm.invoke(rewrite_prompt).rewritten_query
+        rewritten_query = result["messages"][-1].content
         return Command(goto = "intent_detector", update = {"rewritten_query": rewritten_query})
 
     except Exception as e:
@@ -269,8 +242,9 @@ def retriever_node(state) -> Command[Literal["__end__"]]:
     result = retrieval_agent.invoke(state, config = agent_config)
     last_tool = next((msg for msg in reversed(result["messages"]) if msg.type == "tool"), None)
 
-    if last_tool.name == 'human_assistance_tool':
-        return Command(update = {"messages": [AIMessage(content = last_tool.content)]}, goto = END)
+    if last_tool:
+        if last_tool.name == 'human_assistance_tool':
+            return Command(update = {"messages": [AIMessage(content = last_tool.content)]}, goto = END)
     else:
         return Command(update = {"messages": [result["messages"][-1]]}, goto = END)
 
