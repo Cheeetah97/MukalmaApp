@@ -37,14 +37,14 @@
     {
         "text": "Question: How does loss offsetting work for CGT if I incur a loss after making a profit?  Answer: If you make a profit and pay CGT, but later incur a loss, you can reduce your CGT by offsetting the loss. For example, if you pay PKR 150 CGT on a PKR 1,000 profit in November, but then incur a PKR 400 loss in December, your net gain becomes PKR 600. The tax on the loss (15% of PKR 400 = PKR 60) will be reimbursed to you in the following month, reducing your overall tax payment.",
         "image_path": null,
-        "id": "508a20267e50fc8d2f134c3cd2dc3793",
+        "id": "e81c91fd5a20ea4e8141f54436ed3a63",
         "page_number": 2,
         "FAQ_Category": "Capital Gain Tax (CGT)"
     },
     {
         "text": "Question: When is CGT deducted for PSX transactions?  Answer: CGT is deducted monthly. It is not deducted at the time of each transaction when you sell shares. For example, you book a profit in November, so CGT on it shall be payable in the month of December.",
         "image_path": null,
-        "id": "31e3cca432fa42c6f3edae77ab522ef0",
+        "id": "0dccf82e63fcfbfd7dcce59cc98a5f21",
         "page_number": 2,
         "FAQ_Category": "Capital Gain Tax (CGT)"
     },

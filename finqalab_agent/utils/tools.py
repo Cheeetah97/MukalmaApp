@@ -24,3 +24,8 @@ def information_retriever_tool(query: Annotated[str, "User's Query in English"])
     for doc in retrieved_docs:
         output += doc.page_content + "\n\n"
     return output
+
+@tool
+def human_assistance_tool(query: Annotated[str, "User's Query in English"]) -> Annotated[str, "Response from Human"]:
+    """Request assistance from a human."""
+    return "Escalated: Your query has been escalated to our specialized team for further assistance, and we'll get back to you soon with an update."

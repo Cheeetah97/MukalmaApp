@@ -1,15 +1,15 @@
 [
     {
-        "text": "Question: How do I create an account on Finqalab?  Answer: Open the Finqalab app and select the Sign Up option. After entering the required information, click Continue. Youll be sent a verification email to your registered email address. To finalize your registration on Finqalab, click on the link provided in the email and follow the instructions. #finqalab Sign Up Login",
-        "image_path": "/app/Parsed_Output/Parsed_Images/figure-1-1.jpg",
+        "text": "Question: How do I create an account on Finqalab?  Answer: Open the Finqalab app and select the Sign Up option. After entering the required information, click Continue. Youll be sent a verification email to your registered email address. To finalize your registration on Finqalab, click on the link provided in the email and follow the instructions. #finqalab Login Sign Up",
+        "image_path": "/app/Parsed_Output/Parsed_Images/figure-1-2.jpg",
         "id": "b35d2e43fcf1f30daf7e414e87a3ce05",
         "page_number": 1,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
-        "text": "Question: What to do if I forget my password?  Answer: On the app Login page, select the Forgot My Password option. Enter your registered email and we will promptly send you a link to reset your password. #finqalab Login",
-        "image_path": "/app/Parsed_Output/Parsed_Images/figure-1-2.jpg",
-        "id": "8b277def9744b77603a66326845b4e4e",
+        "text": "Question: What to do if I forget my password?  Answer: On the app Login page, select the Forgot My Password option. Enter your registered email and we will promptly send you a link to reset your password. #fingalab Login",
+        "image_path": "/app/Parsed_Output/Parsed_Images/figure-1-3.jpg",
+        "id": "9d91abc97867d6a11a520583246f1de8",
         "page_number": 1,
         "FAQ_Category": "Account Opening and Related Queries"
     },
@@ -21,7 +21,7 @@
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
-        "text": "Question: I did not receive a verification email? What should I do?  Answer: Please check your spam folder and double check your registered email address. If you still dont see a verification email, contact our customer support department at support@finqalab.com.",
+        "text": "Question: I did not receive a verification email? What should I do?  Answer: Please check your spam folder and double check your registered email address. If you still havent seen a verification email, feel free to let us know.",
         "image_path": null,
         "id": "d285e3b54c721438831a606c3c80b33d",
         "page_number": 2,
@@ -42,72 +42,72 @@
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
-        "text": "Question: I changed my mind and no longer wish to continue. What should I do?  Answer: For account closure kindly send an email to cs@nextcapital.com.pk and cc support@finqalab.com. Furthermore, we're sorry to hear that! Is there anything we could have done to improve your experience with Finqalab? We value your feedback as it helps us improve our app. If you reconsider or have any questions in the future, please feel free to reach out to us!",
+        "text": "Question: I changed my mind and no longer wish to continue. What should I do?  Answer: Our agents can help you regarding this. Do you wish to speak with an agent now? Furthermore, we're sorry to hear that! Is there anything we could have done to improve your experience with Finqalab? We value your feedback as it helps us improve our app. If you reconsider or have any questions in the future, please feel free to reach out to us!",
         "image_path": null,
         "id": "8654d2f940a27cbf09fad09ab6e934b2",
-        "page_number": 3,
+        "page_number": 2,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
         "text": "Question: What is UKN and how can I find mine?  Answer: UKN is a unique number assigned to all clients who opened an account after 2019 by NCCPL. It follows the format AAQ5272IV. You can find your UKN by: Searching your email and text messages for \"UKN\" Calling or messaging NCCPL at 021-111-111-622 Reaching out to your current broker Messaging NCCPL via WhatsApp (Recommended)",
         "image_path": null,
-        "id": "28a14bba95905b1022f6bb623c19243e",
+        "id": "9247f78b30120f8f6ab47e64590a9b8c",
         "page_number": 3,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
         "text": "Question: I dont know my UKN. How can I get it?  Answer: Please follow these steps 1. Message NCCPL on WhatsApp (+92 21 111 111 622) 2. Perform User Authentication by Typing and sending 1 from main menu 3. Enter your CNIC to authenticate yourself 4. Type and send M to come back to the main menu. 5. Type and send 2 to use Registered User Services 6. Type and send 1 My Profile 7. Type and send 4 to get your UKN number",
         "image_path": null,
-        "id": "c0eaaa591983cd1f414335909250bfcf",
+        "id": "9bcb694214bc40f0fb42e3cca3878596",
         "page_number": 3,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
-        "text": "Question: What should I do if my IBAN is not verified by RAAST?  Answer: Your IBAN might be incorrect, please verify it and share the correct one with us. The error is due to a mismatch between your bank details and Finqalab account details, please try using a different bank account or a mobile wallet (Easypaisa/JazzCash) that is under your name.  If you do not have another bank account, please send a copy of your cheque or account maintenance certificate for processing. If you provided an RDA account, please try using a local mobile wallet like Easypaisa or JazzCash under your name instead.",
+        "text": "Question: What should I do if my IBAN is not verified by RAAST?  Answer: Your IBAN might be incorrect, please verify it and share the correct one with us. The error is due to a mismatch between your bank details and Finqalab account details, please try using a different bank account or a mobile wallet (Easypaisa/JazzCash) that is under your name. If you do not have another bank account, please send a copy of your cheque or account maintenance certificate for processing. If you provided an RDA account, please try using a local mobile wallet like Easypaisa or JazzCash under your name instead.",
         "image_path": null,
-        "id": "3d15d8288ea5aa9ec88f07a603dc7801",
-        "page_number": 4,
+        "id": "4800b8a5b5a7c8c4036e46c5f1f46710",
+        "page_number": 3,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
         "text": "Question: How can I make zakat non-deductible?  Answer: To make zakat non-deductible, you need to submit a declaration on stamp paper as per regulatory requirements of NCCPL. We can prepare the paperwork for you; however, you will need to sign it and pay an additional fee of PKR 500/- for stamp paper. If you wish, you can initially set zakat as deductible and change it later.",
         "image_path": null,
-        "id": "f7207609f0ea33f950fd4142d6006540",
+        "id": "e6d0724146d3666aad35eea252854847",
         "page_number": 4,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
         "text": "Question: What if my data does not match the existing information in CDC?  Answer: If your data does not match the existing information in CDC, we wont be able to process your account. However, you will need to sign an Authority Letter allowing us to request an information update on your behalf. Please note that NCCPL takes 7 working days to update the information, after which we can process your account opening.",
         "image_path": null,
-        "id": "572741dbae7ae2189457defb7207c832",
+        "id": "b1f798872d12c1be129b86fed5eae8b0",
         "page_number": 4,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
         "text": "Question: What should I do if I am not receiving the OTP when switching SIM cards between networks?  Answer: Type MNP and send it to 9646. After sending, you should receive a message, and then you can resend the OTP through the app. This will resolve the issue.",
         "image_path": null,
-        "id": "d60fbfd94f048a94f152b942a79483fe",
+        "id": "4ae3a585f9a3d31a1e1784f39b0e659d",
         "page_number": 4,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
         "text": "Question: What if my message is not being sent to 9646?  Answer: Ensure that you have sufficient balance on your mobile phone to send the MNP request via SMS. Once you receive the confirmation SMS, you can resend the OTP after 30 minutes.",
         "image_path": null,
-        "id": "af44841ff268b922cf6f23cb69b3b03f",
+        "id": "5b4195f34df2d7f9399f700dc9232b81",
         "page_number": 4,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
-        "text": "Question: Which documents do I need to provide for Proof of Income?  Answer: To verify your proof of income, you may need to provide of the following documents, depending on your source of income: 1. Business Income Business Bank Statement: The account must be in your business name, showing revenue for the last 6 months. Business Ownership Undertaking: A declaration confirming business ownership. 2. Private Employee Salary Slip: Must be on the companys official letterhead, showing your name and designation. Bank Statement: Showing credited salary matching your salary slip 3. Government Employee Salary Slip: Must show your name and designation. Bank Statement: Showing credited earnings. 4. Freelance/Part-Time Work Bank Statement: Showing deposits from freelance work for the last 6 months to 1 year. Certificate of Earning: From the platform if applicable. 5. Property Rent Rent Agreement: Showing the property details, tenants name, and rent amount. Bank Statement: Showing the rent credited in the past 2-3 transactions. 6. Savings/Other Sources Bank Statement: Showing deposits for the past 6 months to 1 year, if you receive income from savings or other sources. 7. Gift Gift Deed: On stamp paper, showing the transferred wealth. Bank Statement: Showing the credited gifted amount. 8. Pension Pension Slip: Showing the pension amount. Bank Statement: Showing credited pension. 9. Inheritance: Proof of inheritance. Bank Statement showing inheritance amount credited. 10. Dependent: Sponsors source of income All the relevant documents required for that source of income. 11. Remittance Bank Statement: Showing recent remittance transactions. For all documents, ensure the files are in PNG or JPEG format and not larger than 5 MB. The specific requirements may vary based on your income source, so please refer to the relevant category for detailed instructions. And if you do not have the relevant documents then kindly reach out to us on Whatsapp (+92 21 111 111 622).",
+        "text": "Question: Which documents do I need to provide for Proof of Income?  Answer: To verify your proof of income, you may need to provide of the following documents, depending on your source of income: 1. Business Income Business Bank Statement: The account must be in your business name, showing revenue for the last 6 months. Business Ownership Undertaking: A declaration confirming business ownership. 2. Private Employee Salary Slip: Must be on the companys official letterhead, showing your name and designation. Bank Statement: Showing credited salary matching your salary slip 3. Government Employee Salary Slip: Must show your name and designation. Bank Statement: Showing credited earnings. 4. Freelance/Part-Time Work Bank Statement: Showing deposits from freelance work for the last 6 months to 1 year. Certificate of Earning: From the platform if applicable. 5. Property Rent Rent Agreement: Showing the property details, tenants name, and rent amount. Bank Statement: Showing the rent credited in the past 2-3 transactions. 6. Savings/Other Sources Bank Statement: Showing deposits for the past 6 months to 1 year, if you receive income from savings or other sources. 7. Gift Gift Deed: On stamp paper, showing the transferred wealth. Bank Statement: Showing the credited gifted amount. 8. Pension Pension Slip: Showing the pension amount. Bank Statement: Showing credited pension. 9. Inheritance: Proof of inheritance. Bank Statement showing inheritance amount credited. 10. Dependent: Sponsors source of income All the relevant documents required for that source of income. 11. Remittance Bank Statement: Showing recent remittance transactions. For all documents, ensure the files are in PNG or JPEG format and not larger than 5 MB. The specific requirements may vary based on your income source, so please refer to the relevant category for detailed instructions. And if you do not have the relevant documents then kindly reach out to NCCPL on Whatsapp (+92 21 111 111 622).",
         "image_path": null,
-        "id": "d4307ff29915f81afa7090eec052e8ff",
+        "id": "1057fa28dde5c1817820dd4083bf093b",
         "page_number": 6,
         "FAQ_Category": "Account Opening and Related Queries"
     },
     {
         "text": "Question: What is the difference between a Sahulat and Normal Account?  Answer: Sahulat Account: Designed for beginners or small-scale investors. Requires minimal documentation (e.g., CNIC only). The investment deposit limit is capped at PKR 1,000,000. Normal Account: Suitable for frequent or professional traders. Requires detailed documentation and verification. No specific investing limit.",
         "image_path": null,
-        "id": "64faf370b8d1d5a7b8fc999d0c3d46de",
+        "id": "ba2ba29a87782e02e959aa5a64c11c0f",
         "page_number": 6,
         "FAQ_Category": "Account Opening and Related Queries"
     }

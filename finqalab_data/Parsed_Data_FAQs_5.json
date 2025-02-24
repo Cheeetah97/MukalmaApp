@@ -70,7 +70,7 @@
         "FAQ_Category": "Stock Details"
     },
     {
-        "text": "Question: The Graph does not show any values?  Answer: The graph may not show value if the stock has not traded during the day. If the issue persists: Close the app and try opening it again. Sign out and sign in again. If the issue still persists, contact our customer support through WhatsApp (+923003672522) or email your query at support@finqalab.com",
+        "text": "Question: The Graph does not show any values?  Answer: The graph may not show value if the stock has not traded during the day. If the issue persists: Close the app and try opening it again. Sign out and sign in again.",
         "image_path": null,
         "id": "7c8a5306793fcfc1a06e7346f56abaab",
         "page_number": 3,
@@ -79,35 +79,35 @@
     {
         "text": "Question: How do I turn on notifications for each stock?  Answer: To set up notifications for individual stocks, follow these steps: Select the desired stock, which will lead you to the stock details page. On the top-right corner of the page, you will find a notification bell icon. Tap on it to enable notifications for that specific stock.",
         "image_path": null,
-        "id": "7e7826dd334950fa178ff10d833575ab",
+        "id": "608495d55260d6194ba3bad44dc4cec1",
         "page_number": 3,
         "FAQ_Category": "Stock Details"
     },
     {
         "text": "Question: Can I customize notifications for each stock?  Answer: Yes, you may create custom alerts for each stock.",
         "image_path": null,
-        "id": "5d634418d6640872c70a42ac93e8110b",
-        "page_number": 4,
+        "id": "e30107f33f1874566ef5ec41bdba7444",
+        "page_number": 3,
         "FAQ_Category": "Stock Details"
     },
     {
         "text": "Question: What does Minimum Lot Size mean?  Answer: This means that you need to buy a minimum quantity for a share. In case of ETFs the minimum lot size is 500 or in multiples of 500 shares. Whereas, for non-ETF stocks the minimum lot size is 1 share.",
         "image_path": null,
-        "id": "6480d80e0ea4478b4fb7ec32796293f7",
+        "id": "dba28cd0229ef58b7a9774d51f657db4",
         "page_number": 4,
         "FAQ_Category": "Stock Details"
     },
     {
         "text": "Question: Can we buy indices such as KSE100 and KMI30 through finqalab?  Answer: Indices cannot be traded on PSX, they are only there for tracking purposes. However, you can buy ETFs that have the objective to match the index returns. For example, MIIETF tracks KMI30.",
         "image_path": null,
-        "id": "e3796dcc7e686074b63cfdb057c92ea8",
+        "id": "831869b124cc852e9e354e6d6f888c05",
         "page_number": 4,
         "FAQ_Category": "Stock Details"
     },
     {
         "text": "Question: Can I track stocks on other stock exchanges using Finqalab?  Answer: Currently, Finqalab only supports the trading of stocks listed on the Pakistan Stock Exchange (PSX).",
         "image_path": null,
-        "id": "ef20c8b8f835463354e93e0003f03d9d",
+        "id": "ed13727513c4abc66bce5671be445905",
         "page_number": 4,
         "FAQ_Category": "Stock Details"
     }

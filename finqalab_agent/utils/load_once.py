@@ -37,6 +37,7 @@ def _get_model(name: str, temp: str):
         model = ChatOpenAI(model = 'gpt-4o-mini', 
                            openai_api_key = os.getenv("OPENAI_API_KEY"), 
                            max_completion_tokens = 1024,
+                           temperature = temp,
                            max_retries = 2)
     else:
         raise ValueError(f"Unsupported Model Name: {name}")
@@ -96,35 +97,21 @@ def _download_finqalab_data():
             json.dump(data, f, indent=4)
 
 
-@lru_cache(maxsize = 1)
-def _get_mqr(llm: str, k_bm25: int):
-
-    # files = [f'Parsed_Data_FAQs_{i}.json' for i in range(1,16)]
-
-    # all_documents = []
-
-    # for file_name in files:
-    #     loader = JSONLoader(
-    #         file_path = file_name,
-    #         jq_schema = '.[] | {text}',
-    #         content_key='text',
-    #         text_content = False
-    #     )
-    #     documents = loader.load()
-
-    #     with open(file_name, 'r') as f:
-    #         data = json.load(f)
-    #         data_source = data[0]['FAQ_Category']
-    #         for doc in documents:
-    #             doc.metadata['FAQ_Category'] = data_source
-
-    #     all_documents += documents
+@lru_cache(maxsize = 2)
+def _get_bm25ret(k: int):
 
     client = QdrantClient(url = os.getenv("QDRANT"), api_key = os.getenv("QDRANT_API_KEY"))
 
     all_documents = []
     for doc in client.scroll(collection_name = "qa_collection_google", limit = 150)[0]:
         all_documents.append(Document(page_content = doc.payload['page_content'], metadata = doc.payload['metadata']))
+
+    bm25_ret = BM25Retriever.from_documents(all_documents, k = k, preprocess_func = word_tokenize)
+    return bm25_ret
+
+
+@lru_cache(maxsize = 1)
+def _get_mqr(llm: str, k_bm25: int):
     
     class LineListOutputParser(BaseOutputParser[List[str]]):
         """Output parser for a list of lines."""
@@ -140,8 +127,8 @@ def _get_mqr(llm: str, k_bm25: int):
                                                 Original question: {question}""",
     )
 
-    llm_chain = QUERY_PROMPT | _get_model(llm, temp = 0.5) | LineListOutputParser()
-    multi_query_retriever = MultiQueryRetriever(retriever = BM25Retriever.from_documents(all_documents, k = k_bm25, preprocess_func = word_tokenize), 
+    llm_chain = QUERY_PROMPT | _get_model(llm, temp = 1) | LineListOutputParser()
+    multi_query_retriever = MultiQueryRetriever(retriever = _get_bm25ret(k = k_bm25), 
                                                 llm_chain = llm_chain, 
                                                 parser_key = "lines", 
                                                 include_original = True)

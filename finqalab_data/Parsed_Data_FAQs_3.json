@@ -35,7 +35,7 @@
         "FAQ_Category": "Bank Transfers, Deposits and Payments"
     },
     {
-        "text": "Question: Can I view my payment history in the Finqalab app?  Answer: Yes, you can view the payment history. Go to the Account screen, then select Payments, and then click on Funds History. Payments M. Deposit Funds Withdraw Funds Funds History",
+        "text": "Question: Can I view my payment history in the Finqalab app?  Answer: Yes, you can view the payment history. Go to the Account screen, then select Payments, and then click on Funds History. Payments M Deposit Funds Withdraw Funds Funds History",
         "image_path": "/app/Parsed_Output/Parsed_Images/figure-3-2.jpg",
         "id": "8cf29a5d27cbd5ff755491343e01b597",
         "page_number": 3,
@@ -63,7 +63,7 @@
         "FAQ_Category": "Bank Transfers, Deposits and Payments"
     },
     {
-        "text": "Question: I did not receive my instant transfer in Finqalab account within 10 minutes. What should I do?  Answer: If your instant transfer hasnt been credited to your Finqalab account within 10 minutes, please email us at support@finqalab.com with a screenshot of the receipt or send it to us on Whatsapp (+923003672522). Our team will review the issue, escalate it to the bank by sending the transaction receipt, and follow up to ensure your funds are credited promptly.",
+        "text": "Question: I did not receive my instant transfer in Finqalab account within 10 minutes. What should I do?  Answer: If your instant transfer hasnt been credited to your Finqalab account within 10 minutes, you will need a screenshot of the receipt to send to us. Our team will review the issue, escalate it to the bank by sending the transaction receipt, and follow up to ensure your funds are credited promptly.",
         "image_path": null,
         "id": "1ecfaebea25cab9d037bbf8973646d83",
         "page_number": 4,
