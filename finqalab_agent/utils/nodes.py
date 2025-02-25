@@ -245,6 +245,8 @@ def retriever_node(state) -> Command[Literal["__end__"]]:
     if last_tool:
         if last_tool.name == 'human_assistance_tool':
             return Command(update = {"messages": [AIMessage(content = last_tool.content)]}, goto = END)
+        else:
+            return Command(update = {"messages": [result["messages"][-1]]}, goto = END)
     else:
         return Command(update = {"messages": [result["messages"][-1]]}, goto = END)
 
