@@ -24,7 +24,7 @@ from langchain.chains.query_constructor.base import StructuredQueryOutputParser,
 
 load_dotenv()
 
-@lru_cache(maxsize = 2)
+@lru_cache(maxsize = 3)
 def _get_model(name: str, temp: str):
     
     if name == 'google':
@@ -38,6 +38,11 @@ def _get_model(name: str, temp: str):
                            openai_api_key = os.getenv("OPENAI_API_KEY"), 
                            max_completion_tokens = 1024,
                            temperature = temp,
+                           max_retries = 2)
+    elif name == 'openai-pro':
+        model = ChatOpenAI(model = 'o3-mini', 
+                           openai_api_key = os.getenv("OPENAI_API_KEY"), 
+                           max_completion_tokens = 1024,
                            max_retries = 2)
     else:
         raise ValueError(f"Unsupported Model Name: {name}")

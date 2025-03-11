@@ -43,7 +43,7 @@ def human_assistance_tool(query: Annotated[str, "User's Query in English"]) -> A
     retrieved_docs = bm25.invoke(query)
     context = ''
     for doc in retrieved_docs:
-        context += doc.page_content + "\n\n"
+        context += doc.page_content + "\n"
 
     system_prompt = """You are an intelligent assistant for Finqalab tasked with evaluating the relevance of customer queries."""
 
@@ -54,7 +54,7 @@ def human_assistance_tool(query: Annotated[str, "User's Query in English"]) -> A
         Your task is to evaluate the relevance of customer queries by analyzing the retrieved knowledge base context. If the retrieved context contains a direct answer, assign a high relevance score. If there is no direct answer, assess whether the query is broadly related to Finqalab's services. Assign a score based on the following criteria:
 
         1. High Relevance (8-10): The query directly matches or closely aligns with the retrieved context, indicating strong relevance.
-        2. Moderate Relevance (5-7): The query is not explicitly covered in the retrieved context but is still broadly related to Finqalab, financial markets, investing, or online trading.
+        2. Moderate Relevance (5-7): The query is not explicitly covered in the retrieved context but is still broadly related to Finqalab, financial markets, investing, online trading or is an escalation request.
         3. Low Relevance (1-4): The query has little to no meaningful connection with Finqalab, investments, or trading.
 
         Think carefully before choosing a relevance score. If the context does not contain the exact answer but the question is still relevant to Finqalab, assign a moderate score instead of a low one.
@@ -72,8 +72,8 @@ def human_assistance_tool(query: Annotated[str, "User's Query in English"]) -> A
         Retrieved Context:
         Question: When do I become eligible for bonus shares?  Answer: To receive bonus shares, you must own the shares on the ex-date.
         Question: When will the shares I bought today reflect in my CDC account?  Answer: It takes two working days for the shares purchased today to reflect in your CDC sub- account.
-        Customer's Query: When was Finqalab founded?
-        Relevance Score: 7 (Broadly Related)
+        Customer's Query: When was Finqalab founded? Can you escalate my query?
+        Relevance Score: 7 (Broadly Related and Escalation Request)
 
         Example 3:
         Retrieved Context:
