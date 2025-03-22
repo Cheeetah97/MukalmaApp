@@ -4,8 +4,9 @@ from fastapi.responses import StreamingResponse
 from sse_starlette.sse import EventSourceResponse
 from pydantic import BaseModel
 from dotenv import load_dotenv
-from typing import AsyncGenerator, Dict, Any
+from typing import AsyncGenerator, Dict, Any, List
 from finqalab_agent.agent import graph
+from finqalab_agent.utils.nodes import memory
 
 load_dotenv()
 
@@ -19,6 +20,9 @@ app = FastAPI()
 class ChatRequest(BaseModel):
     message: str
     thread_id: str
+
+class DeleteThreadsRequest(BaseModel):
+    thread_ids: List[str]
 
 async def agent_streamer(thread_id: str, message: str) -> AsyncGenerator[str, None]:
 
@@ -42,6 +46,18 @@ async def chat_stream(request: ChatRequest):
         agent_streamer(request.thread_id, request.message),
         media_type = "text/event-stream"
     )
+
+@app.post("/delete-threads")
+async def delete_threads(request: DeleteThreadsRequest):
+    deleted = []
+    not_found = []
+    for thread_id in request.thread_ids:
+        if thread_id in memory.storage:
+            del memory.storage[thread_id]
+            deleted.append(thread_id)
+        else:
+            not_found.append(thread_id)
+    return {"deleted": deleted, "not_found": not_found}
 
 @app.get("/health")
 async def health_check():
