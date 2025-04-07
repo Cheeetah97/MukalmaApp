@@ -25,8 +25,8 @@ def information_retriever_tool(query: Annotated[str, "User's Query in English"])
                                            llm_sqr = 'openai')
     retrieved_docs = ensemble_retriever.invoke(query)
     retrieved_docs = retrieved_docs[:5]
-    retrieved_docs = LongContextReorder().transform_documents(retrieved_docs)
-    output = ''
+    retrieved_docs = retrieved_docs[::-1]
+    output = "Question: What is Finqalab?  Answer: Finqalab is Pakistan's first multi-asset investment platform, where you can invest in stocks, ETFS, and government securities, including T-Bills. Finqalab's intuitive interface and advanced features enable investors to make informed decisions and confidently navigate the financial markets. Currently, Finqalab only supports the trading of stocks listed on the Pakistan Stock Exchange (PSX)." + "\n\n"
     for doc in retrieved_docs:
         output += doc.page_content + "\n\n"
     return output

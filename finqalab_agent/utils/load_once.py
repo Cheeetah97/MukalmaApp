@@ -31,8 +31,8 @@ def _get_model(name: str, temp: str):
         model =  ChatGoogleGenerativeAI(api_key = os.getenv("GOOGLE_PRO_API_KEY"),
                                         temperature = temp,
                                         max_retries = 2,
-                                        max_tokens = 750,
-                                        model = "gemini-2.0-flash")
+                                        max_tokens = 1024,
+                                        model = "gemini-2.0-flash-001")
     elif name == 'openai':
         model = ChatOpenAI(model = 'gpt-4o-mini', 
                            openai_api_key = os.getenv("OPENAI_API_KEY"), 
@@ -71,7 +71,7 @@ def _get_vector_store(embed_type: str):
         embed_model = GoogleGenerativeAIEmbeddings(model = "models/text-embedding-004", 
                                                    google_api_key = os.getenv("GOOGLE_PRO_API_KEY"))
         
-        vector_store = QdrantVectorStore.from_existing_collection(collection_name = "qa_collection_google",
+        vector_store = QdrantVectorStore.from_existing_collection(collection_name = "qa_collection_google_new",
                                                                   embedding = embed_model,
                                                                   url = os.getenv("QDRANT"), 
                                                                   api_key = os.getenv("QDRANT_API_KEY")
@@ -108,7 +108,7 @@ def _get_bm25ret(k: int):
     client = QdrantClient(url = os.getenv("QDRANT"), api_key = os.getenv("QDRANT_API_KEY"))
 
     all_documents = []
-    for doc in client.scroll(collection_name = "qa_collection_google", limit = 150)[0]:
+    for doc in client.scroll(collection_name = "qa_collection_google_new", limit = 150)[0]:
         all_documents.append(Document(page_content = doc.payload['page_content'], metadata = doc.payload['metadata']))
 
     bm25_ret = BM25Retriever.from_documents(all_documents, k = k, preprocess_func = word_tokenize)
