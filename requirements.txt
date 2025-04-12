@@ -1,5 +1,5 @@
 aiohappyeyeballs==2.4.6
-aiohttp==3.11.13
+aiohttp==3.11.16
 aiosignal==1.3.2
 annotated-types==0.7.0
 anyio==4.8.0
@@ -55,15 +55,15 @@ jupyter_core==5.7.2
 jupyterlab_widgets==3.0.13
 langchain==0.3.19
 langchain-community==0.3.18
-langchain-core==0.3.40
+langchain-core==0.3.49
 langchain-experimental==0.3.4
-langchain-openai==0.3.7
 langchain-google-genai==2.1.2
+langchain-openai==0.3.7
 langchain-qdrant==0.2.0
 langchain-text-splitters==0.3.6
-langgraph==0.3.2
+langgraph==0.3.11
 langgraph-api==0.0.27
-langgraph-checkpoint==2.0.16
+langgraph-checkpoint==2.0.21
 langgraph-cli==0.1.74
 langgraph-prebuilt==0.1.1
 langgraph-sdk==0.1.53
